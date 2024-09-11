@@ -1,0 +1,104 @@
+body {overflow-x: hidden; /* This hides the horizontal scrollbar */}
+
+.header {
+  padding: 0px;
+  text-align: center;
+  background: black;
+  color: white;
+  font-size: 30px;
+}
+
+h1 {
+	text-align: center;
+	margin-left: 10px;
+	margin-right: -50px;
+}
+
+li {
+list-style-type: none;
+color: black;
+text-align: center;
+
+}
+
+input, textarea {
+	text-align: center;
+	margin: 0 auto;
+	width: 50%; /* Adjust the width of the boxes */
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box; /* Ensures padding doesn't affect total width */
+    width: 30%; /* deterimans the width of the footer box */
+    display: flex;
+}
+
+.p1 {text-align: center;
+	color: black;
+	margin-left: -25px;
+	margin-right: -25px;
+}
+
+.p2 {
+	text-align: center;
+	color: white;
+	margin-left: 50px;
+	margin-right: 55px;
+}
+
+.fb {display: inline;
+	display: inline;
+	text-decoration: none;
+	color: white;
+	margin: 0 10px;
+}
+
+.fb:hover {
+	color: skyblue;
+}
+
+.fb:active {
+	color: purple;
+}
+
+.tb, .tb2, .tb3 {
+	display: inline;
+	text-decoration: none;
+	color: white;
+	margin: 0 10px;
+	position: relative; right: -30px;
+}
+
+.tb:hover, .tb2:hover, .tb3:hover {
+	color: skyblue;
+
+}
+
+.tb:active, .tb2:active, .tb3:active {
+	color: purple;
+}
+
+.footer {
+    background-color: black;
+    color: white;
+    padding: 2px;
+    text-align: center; /* Centers the text */
+    width: 120%;
+	margin-left: -187px;
+	
+}
+
+.footer ul {
+	color: white;
+    list-style-type: none; /* Remove bullets from list items */
+    padding: 25; /* Remove default padding */
+    margin: 0; /* Remove default margin */
+}
+
+.footer li {
+	color: white;
+    display: inline; /* Display the list items in a single line */
+   /* margin: 0 10px; /* Adds space between the words */
+

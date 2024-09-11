@@ -1,0 +1,146 @@
+#toplist {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+#topli {
+  float: right;
+  font-family: monospace;
+  font-size:20px;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 20px 16px;
+  text-decoration: none;
+}
+ 
+
+#demo {
+  display:block;
+  padding:14px 16px;
+  float:left;
+  width:40px;
+  height:40px;
+}
+
+#title {
+  font-size: 40px;
+  text-align: center;
+  font-family: monospace;
+}
+
+#subtitle {
+  text-align:center;
+  font-family:monospace;
+}
+
+#bcontainer {
+  text-align: center;
+}
+
+button {
+  border: none;
+  font-family: monospace;
+  color: white;
+  padding: 15px 32px;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  background-color: blue;
+}
+
+p {
+  font-family: monospace;
+  font-size: 16px;
+}
+
+h2 {
+  font-family: monospace;
+}
+
+#feature {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+  flex-basis: 200px;
+  text-align: center;
+  position: relative; right: 5px;
+}
+
+.tb2 {
+  text-decoration: none;
+  color: white;
+}
+
+.tb2:hover {
+  color: skyblue;
+}
+
+.tb2:active {
+  color: purple;
+}
+
+.fb {
+  text-decoration: none;
+  color: white;
+}
+
+.fb:hover {
+  color: skyblue;
+}
+
+.fb:active {
+  color: purple;
+}
+
+#fitem {
+  width: 300px;
+  height: 200px;
+  padding: 16px;
+}
+
+#fitem1 {
+  width: 200px;
+  height: 200px;
+  padding: 16px;
+}
+
+#fitem2 {
+  width: 300px;
+  height: 200px;
+  padding: 16px;
+}
+
+#footertext {
+  text-align: center;
+  color: white;
+  font-family: monospace;
+}
+
+#footer {
+  margin: 0;
+  padding: 10px;
+  overflow: hidden;
+  background-color: #333;
+}
+
+#footerlist {
+  float: none;
+  font-family: monospace;
+  font-size:20px;
+  display:block;
+  color: white;
+  text-align: center;
+  padding: 10px 16px;
+  list-style-type: none;
+}
+
+#footerli {
+display:inline-block;
+text-align: center;
+text-decoration: none;
+}
